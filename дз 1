@@ -1,0 +1,48 @@
+'# -*- coding: utf-8 -*-'
+#1
+print("Курс Основы программирования начался")
+#2
+print(16823 * 12302 % 3092)
+#3
+name = str(input('Укажите свое имя: '))
+if name == ('Иван'):
+	print('Ваше имя не подходит')
+	
+	
+age = int(input('Укажите свой возраст: '))
+if age >= 16 and age < 75 :
+    print("Поздравляем вы поступили в ВГУИТ")
+elif age < 16 and age > 0 :
+    print("Сначала нужно окончить школу!")
+	
+else:
+	print("Введите возраст корректно")
+if age < 16:
+	print('Вам осталось учиться в школе ',age -2,'лет')
+
+	
+
+#4
+sekonds = int(input('Укажите количество секунд, '))
+minuts = sekonds / 60
+print(minuts, 'min')
+hours = minuts / 60
+print(hours, 'hor')
+days = hours / 24
+print(days, 'day')
+#5
+n = int(input('''Укажите число для решения выражения 
+n + n^2 + n^3 + n^4 + n^5: '''))
+print( n + n**2 + n**3 + n**4 + n**5.)
+#6
+a = 1
+b = 2 
+a,b = b,a
+print(a)
+print(b)
+#7
+namber = int(input('Введите число, '))
+if namber % 2 == 0:
+	print('Четное число')
+else:
+	print('Нечетное число')
