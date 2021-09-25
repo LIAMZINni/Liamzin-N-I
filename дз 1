@@ -20,13 +20,11 @@ else:
 if age < 16:
 	print('Вам осталось учиться в школе ',16-age,'лет')
 
-	
-
 # 4
 sekonds = int(input("Введите кол-во секунд "))
-days = sekonds//(3600*24)
-hours = sekonds//3600
 min = sekonds//60
+hours = min//60
+days = hours//24
 print(days, ":" , hours, ":", min, ":", sekonds ) 
 #5
 n = int(input('''Укажите число для решения выражения 
