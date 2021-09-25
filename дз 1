@@ -22,14 +22,12 @@ if age < 16:
 
 	
 
-#4
-sekonds = int(input('Укажите количество секунд, '))
-minuts = sekonds / 60
-print(minuts, 'min')
-hours = minuts / 60
-print(hours, 'hor')
-days = hours / 24
-print(days, 'day')
+# 4
+sekonds = int(input("Введите кол-во секунд "))
+days = sekonds//(3600*24)
+hours = sekonds//3600
+min = sekonds//60
+print(days, ":" , hours, ":", min, ":", sekonds ) 
 #5
 n = int(input('''Укажите число для решения выражения 
 n + n^2 + n^3 + n^4 + n^5: '''))
