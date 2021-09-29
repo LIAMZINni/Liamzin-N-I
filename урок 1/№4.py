@@ -1,8 +1,8 @@
 # -- coding: utf-8 --
 
-# 4
-sekonds = int(input("Введите кол-во секунд "))
-min = sekonds//60
-hours = min//60
-days = hours//24
-print(days, ":" , hours, ":", min, ":", sekonds ) 
+seconds = int(input('Введите кол-во секунд '))
+days = seconds // 86400
+hours = (seconds % 86400) // 3600
+minutes = ((seconds % 86400) % 3600) // 60
+seconds = ((seconds % 86400) % 3600) % 60
+print(days, ":",hours, ":", minutes, ":", seconds)
