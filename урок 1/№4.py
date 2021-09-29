@@ -1,4 +1,4 @@
-'# -- coding: utf-8 --'
+# -- coding: utf-8 --
 
 # 4
 sekonds = int(input("Введите кол-во секунд "))
