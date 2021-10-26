@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def nam9():
 	sum=0
 	n=int(input('n= '))
