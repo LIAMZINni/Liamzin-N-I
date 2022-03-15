@@ -2,7 +2,7 @@ public class java {
     public static void main(String[] args) {
         int n = args.length;
         if (n != 2) {
-            System.out.println("Вы не передавали параметров ");
+            System.out.println(“Неверное количество параметров ”);
         } else {
             System.out.println(args[0] +"+"+args[1]+"="+((Integer.parseInt(args[0])+(Integer.parseInt(args[1])))));
         }
