@@ -6,7 +6,7 @@ public class java {
         if (args[0].equals(login)&(args[1].equals(parol))) {
             System.out.println("Вас узнали.Добро пожаловать ");
         } else {
-            System.out.println("Логин и пароль не распознаны ");
+            System.out.println("Логин и пароль не распознаны. Доступ запрещен ");
         }
     }
 }
