@@ -21,7 +21,7 @@ public class List  {
         for(int i=0; i<numbers.size();i++){
             System.out.println(i+1 + " комната ");
             System.out.println(numbers.get(i).tostring());
-            System.out.println();
+            
         }
     }
 
